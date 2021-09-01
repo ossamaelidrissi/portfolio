@@ -7,7 +7,14 @@ const Header = ({ data }) => {
     var occupation = data.occupation;
     var description = data.description;
     var city = data.address.city;
-    var networks = data.social.map(function (network) {
+    const social = [
+         {name: "linkedin", url: "https://www.linkedin.com/in/ossama-elidrissi-a19111215/", className: "fa fa-linkedin"},
+         {name: "instagram", url: "https://www.instagram.com/ossaaaamaa/", className: "fa fa-instagram"},
+         {name: "github", url: "https://github.com/ossamaelidrissi", className: "fa fa-github"},
+    ]
+
+
+    var networks = social.map(function (network) {
       return (
         <li key={network.name}>
           <a href={network.url}>
@@ -65,10 +72,10 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.5}>{"I'm Ossama Elidrissi"}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            Based in Marrakech. <span>React Developer</span>. {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

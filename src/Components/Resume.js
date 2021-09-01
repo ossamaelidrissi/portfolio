@@ -3,7 +3,15 @@ import React from "react";
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
-    var education = data.education.map(function (education) {
+
+    const education = [{
+      degree: "LSTA Degree , Full-Stack Dev",
+      description: "Graduated with First Class Honours",
+      graduated: "July 2021",
+      school: "LSTA Developement Informatique SidiYossef - Morroco"
+    }]
+
+    var edu = education.map(function (education) {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
@@ -18,16 +26,25 @@ const Resume = ({ data }) => {
     var work = data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <h3>{work.company}</h3>
+          <h3>Skills</h3>
           <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            One of the founders
+            <span>&bull;</span> <em className="date">May 2021 - present</em>
           </p>
-          <p>{work.description}</p>
+          <p>Build the application for the clients and our own projects</p>
         </div>
       );
     });
-    var skills = data.skills.map(function (skills) {
+   const languages = [
+    {name: "ReactJs", level: "90%"},
+    {name: "NextJs", level: "85%"},
+    {name: "TailwindCss", level: "84%"},
+    {name: "C#", level: "85%"},
+    {name: "Git", level: "70%"},
+    {name: "JavaScript", level: "99%"},
+    {name: "Web Development", level: "95%"},
+   ]
+    var skills = languages.map(function (skills) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
@@ -49,7 +66,7 @@ const Resume = ({ data }) => {
 
         <div className="nine columns main-col">
           <div className="row item">
-            <div className="twelve columns">{education}</div>
+            <div className="twelve columns">{edu}</div>
           </div>
         </div>
       </div>

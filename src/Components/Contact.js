@@ -6,20 +6,11 @@ const Contact = ({ data }) => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  if (data) {
-    var contactName = data.name;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var contactEmail = data.email;
-    var contactMessage = data.contactmessage;
-  }
+
 
   const submitForm = () => {
     window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
+      `mailto:elidrissiossama31@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
         email
@@ -37,7 +28,7 @@ const Contact = ({ data }) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">{contactMessage}</p>
+          <p className="lead">Ask me if you stuck in any problem of react js </p>
         </div>
       </div>
 
@@ -121,15 +112,15 @@ const Contact = ({ data }) => {
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
-              {contactName}
+              Ossama Elidrissi
               <br />
-              {contactEmail}
+              elidrissiossama31@gmail.com
               <br />
               <br />
-              {street} <br />
-              {city}, {state} {zip}
+              Tamslouhte <br />
+              Marrakech, Morroco
               <br />
-              <span>{phone}</span>
+              <span>07 06 88 37 91</span>
             </p>
           </div>
         </aside>

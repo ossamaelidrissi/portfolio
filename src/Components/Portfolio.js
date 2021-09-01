@@ -1,8 +1,14 @@
 import React from "react";
 
 const Portfolio = ({ data }) => {
+const project = [
+  {title: "Hulu Clone (Next JS)", category: "", image: "hulu.png", url: "https://ossama-hulu.vercel.app/"},
+  {title: "Airbnb Clone (Next JS)", category: "", image: "airbnb.png", url: "https://ossama-airbnb.vercel.app/"},
+  {title: "Facebook Clone (Next JS)", category: "", image: "facebook.png", url: "#"},
+  {title: "Google Clone (Next JS)", category: "", image: "google.png", url: "#"},
+]
   if (data) {
-    var projects = data.projects.map(function (projects) {
+    var projects = project.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">

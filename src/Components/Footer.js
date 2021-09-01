@@ -1,17 +1,24 @@
 import React from "react";
 
 const Footer = ({ data }) => {
-  if (data) {
-    var networks = data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
-  }
+
+
+  const social = [
+    {name: "linkedin", url: "https://www.linkedin.com/in/ossama-elidrissi-a19111215/", className: "fa fa-linkedin"},
+    {name: "instagram", url: "https://www.instagram.com/ossaaaamaa/", className: "fa fa-instagram"},
+    {name: "github", url: "https://github.com/ossamaelidrissi", className: "fa fa-github"},
+]
+
+
+var networks = social.map(function (network) {
+ return (
+   <li key={network.name}>
+     <a href={network.url}>
+       <i className={network.className}></i>
+     </a>
+   </li>
+ );
+});
 
   return (
     <footer>
@@ -22,8 +29,8 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
+              <a title="Skills" href="#">
+                Skills
               </a>
             </li>
           </ul>
