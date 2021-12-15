@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = ({ data }) => {
 const project = [
-  {title: "Hulu Clone (Next JS)", category: "", image: "hulu.png", url: "https://ossama-hulu.vercel.app/"},
+  {title: "Huluu Clone (Next JS)", category: "", image: "hulu.png", url: "https://ossama-hulu.vercel.app/"},
   {title: "Airbnb Clone (Next JS)", category: "", image: "airbnb.png", url: "https://ossama-airbnb.vercel.app/"},
   {title: "Facebook Clone (Next JS)", category: "", image: "facebook.png", url: "#"},
   {title: "Google Clone (Next JS)", category: "", image: "google.png", url: "#"},
