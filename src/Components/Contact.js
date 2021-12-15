@@ -28,7 +28,7 @@ const Contact = ({ data }) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">Ask me if you stuck in any problem of react js </p>
+          <p className="lead">Ask me if you stuck in any problem of react js or next js </p>
         </div>
       </div>
 

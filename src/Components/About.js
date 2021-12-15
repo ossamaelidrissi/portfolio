@@ -28,7 +28,7 @@ const About = ({ data }) => {
         <div className="nine columns main-col">
           <h2>About Me</h2>
 
-          <p>Hi there! I am Ossama!  I ve been coding for over 2 years now as a Full Stack developer . I ve worked as an intern with a company called Hello World in Marrakech and I'v a diploma of OFPPT like an Specialized technician developer. Along the journey I realised my passion existed in coding and help others to solve their problems . With this passion, I'm going to build now my dream company with some freinds . We start now the work and thank god we get the firsts clients , I try hard to get the right experience as a React dev and a leader of company.</p>
+          <p>Hi there! I am Ossama!  I ve been coding for over 3 years now as a Full Stack developer . I ve worked as an intern with a company called Hello World in Marrakech and I v a diploma of OFPPT like an Specialized technician developer , and 3 certificates in sololearn.com <a href="https://www.sololearn.com/Certificate/1059-23972154/jpg/">php</a> , <a href="https://www.sololearn.com/Certificate/1097-23972154/jpg/">react & redux</a> , <a href="https://www.sololearn.com/Certificate/1162-23972154/jpg/">Responsive Web Design</a>. Along the journey I realised my passion existed in coding and help others to solve their problems . With this passion, I m going to build now my dream company with some freinds . We start now the work and thank god we get the firsts clients , I try hard to get the right experience as a React dev and a leader of company.</p>
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
