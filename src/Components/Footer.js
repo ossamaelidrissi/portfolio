@@ -29,8 +29,8 @@ var networks = social.map(function (network) {
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="Skills" href="#">
-                Skills
+              <a title="codata" href="https://codata-agency.com">
+                codata-agency
               </a>
             </li>
           </ul>

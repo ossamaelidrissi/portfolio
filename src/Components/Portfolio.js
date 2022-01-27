@@ -4,8 +4,10 @@ const Portfolio = ({ data }) => {
 const project = [
   {title: "Huluu Clone (Next JS)", category: "", image: "hulu.png", url: "https://ossama-hulu.vercel.app/"},
   {title: "Airbnb Clone (Next JS)", category: "", image: "airbnb.png", url: "https://ossama-airbnb.vercel.app/"},
-  {title: "Facebook Clone (Next JS)", category: "", image: "facebook.png", url: "#"},
-  {title: "Google Clone (Next JS)", category: "", image: "google.png", url: "#"},
+  {title: "Shopping Website (Next JS) & Node js", category: "", image: "com.jfif", url: "https://shop.codata-agency.com/"},
+  {title: "Dashbord Admin (React JS)", category: "", image: "admin.jfif", url: "https://sidi-hida.netlify.app/"},
+  {title: "Chat Application (PHP)", category: "", image: "OIP.jfif", url: "/"},
+  {title: "Codata Agency (Next Js)", category: "", image: "codata.jpg", url: "/"},
 ]
   if (data) {
     var projects = project.map(function (projects) {
