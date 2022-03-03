@@ -46,8 +46,8 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a onClick = {() => alert('You can download the ossama portfolio as a pdf soon')} href='#' className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a href = "../../public/cv183.pptx" className="button" download>
+                  <i className="fa fa-download"></i>Download Curriculum vitae
                 </a>
               </p>
             </div>

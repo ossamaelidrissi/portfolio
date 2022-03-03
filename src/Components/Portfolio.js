@@ -4,8 +4,10 @@ const Portfolio = ({ data }) => {
 const project = [
   {title: "Huluu Clone (Next JS)", category: "", image: "hulu.png", url: "https://ossama-hulu.vercel.app/"},
   {title: "Airbnb Clone (Next JS)", category: "", image: "airbnb.png", url: "https://ossama-airbnb.vercel.app/"},
+  {title: "Google Clone (Next JS)", category: "", image: "google.png", url: "https://ossama-google.vercel.app/"},
   {title: "Shopping Website (Next JS) & Node js", category: "", image: "com.jfif", url: "https://shop.codata-agency.com/"},
   {title: "Dashbord Admin (React JS)", category: "", image: "admin.jfif", url: "https://sidi-hida.netlify.app/"},
+  {title: "App Iptv (PHP)", category: "", image: "iptv.jpg", url: "http://codata-admin.com"},
   {title: "Chat Application (PHP)", category: "", image: "OIP.jfif", url: "/"},
   {title: "Codata Agency (Next Js)", category: "", image: "codata.jpg", url: "/"},
 ]
