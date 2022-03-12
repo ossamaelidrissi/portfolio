@@ -46,7 +46,7 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href = "../../public/cv183.pptx" className="button" download>
+                <a href = "../../public/cv183.pptx" className="button" download = "file">
                   <i className="fa fa-download"></i>Download Curriculum vitae
                 </a>
               </p>

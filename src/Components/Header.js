@@ -8,8 +8,8 @@ const Header = ({ data }) => {
     var description = data.description;
     var city = data.address.city;
     const social = [
+          {name: "facebook", url: "https://www.facebook.com/ossama.elidrissi.144/", className: "fa fa-facebook"},
          {name: "linkedin", url: "https://www.linkedin.com/in/ossama-elidrissi-a19111215/", className: "fa fa-linkedin"},
-         {name: "instagram", url: "https://www.instagram.com/ossaaaamaa/", className: "fa fa-instagram"},
          {name: "github", url: "https://github.com/ossamaelidrissi", className: "fa fa-github"},
     ]
 
